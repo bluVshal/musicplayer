@@ -1,15 +1,14 @@
 import React from 'react';
 import { View } from 'react-native';
 import ControlButtons from '../controlButtons/controlButtons';
-import DisplayEcran from '../displayEcran/displayEcran';
+import DisplayScreen from '../displayScreen/displayScreen';
 import Playlist from '../playlist/playlist';
 import Equalizer from '../equalizer/equalizer';
-import Equalizers from '../equalizer copy/equalizer';
 
 const Home = () => {
     return (
         <View>
-            <DisplayEcran />
+            <DisplayScreen />
             <ControlButtons />
             <Equalizer />
             <Playlist />

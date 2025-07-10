@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const DisplayEcran = () => {
+const DisplayScreen = () => {
   return (
     <View>
-      <Text>AAA</Text>
+      <Text>ABC</Text>
     </View>
   )
 };
 
-export default DisplayEcran;
+export default DisplayScreen;
